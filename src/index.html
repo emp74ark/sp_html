@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal page">
+    <link rel="stylesheet" href="./assets/styles/normalize.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/styles/fonts.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Some site</title>
+</head>
+<body>
+
+<!--Navigation-->
+
+<nav>
+    <div class="burger">
+        <div class="burger__line"></div>
+        <div class="burger__line"></div>
+        <div class="burger__line"></div>
+    </div>
+
+    <div class="mobile-nav">
+        <div class="header__links">
+            <a href="#read">Read</a>
+            <a href="#listen">Listen</a>
+            <a href="#support">Support</a>
+            <a href="#communicate">Write me</a>
+        </div>
+    </div>
+</nav>
+
+
+<!--Header-->
+
+    <header>
+        <img class="header__logo" src="assets/images/logo.png" alt="Logo">
+        <div class="header__links">
+            <a href="#read">Read</a>
+            <a href="#listen">Listen</a>
+            <a href="#support">Support</a>
+            <a href="#communicate">Write me</a>
+        </div>
+        <a href="#read"><div class="header__arrow"></div></a>
+    </header>
+
+<!--Read-->
+
+    <section id="read">
+        <a class="nav-link" href="#">To start</a>
+        <h2>Read</h2>
+        <div class="cards">
+            <a class="card" href="#" target="_blank">
+                Telegram
+                <img src="./assets/icons/telegram.png" alt="Telegram">
+            </a>
+            <a class="card" href="#" target="_blank">
+                Instagram
+                <img src="./assets/icons/instagram.png" alt="Instagram">
+            </a>
+            <a class="card" href="#" target="_blank">
+                Twitter
+                <img src="./assets/icons/twitter.png" alt="Twitter">
+            </a>
+        </div>
+        <a class="nav-link" href="#listen">Listen</a>
+    </section>
+
+<!--Listen-->
+
+    <section id="listen">
+        <a class="nav-link" href="#read">Read</a>
+        <h2>Listen</h2>
+        <div class="cards">
+            <a class="card" href="#" target="_blank">
+                Sound cloud
+                <img src="./assets/icons/soundcloud.png" alt="SoundCloud">
+            </a>
+            <a class="card" href="#" target="_blank">
+                Spotify
+                <img src="./assets/icons/spotify.png" alt="Spotify">
+            </a>
+            <a class="card" href="#" target="_blank">
+                Google podcasts
+                <img src="./assets/icons/podcast.png" alt="Google podcasts">
+            </a>
+        </div>
+        <a class="nav-link" href="#support">Support</a>
+    </section>
+
+<!--Support-->
+
+    <section id="support">
+        <a class="nav-link" href="#listen">Listen</a>
+        <h2>Support</h2>
+        <ul>
+            <li><a href="#">Patreon</a></li>
+            <li><a href="#">Something else</a></li>
+        </ul>
+        <a class="nav-link" href="#communicate">Write to me</a>
+    </section>
+
+<!--Communicate-->
+
+    <section id="communicate">
+        <h2>Write to me</h2>
+        <form action="">
+            <div  class="form__input">
+                <label for="name">Name</label>
+                <input type="text" id="name" required>
+            </div>
+            <div  class="form__input">
+                <label for="message">Text</label>
+                <textarea id="message" rows="10" required></textarea>
+            </div>
+            <div class="form__buttons">
+                <button>Send</button>
+            </div>
+        </form>
+        <a class="nav-link" href="#">To start</a>
+    </section>
+
+<!--Scripts-->
+
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
